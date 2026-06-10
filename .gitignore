@@ -1,0 +1,21 @@
+# Python
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/services/__pycache__/
+ml-service/services/services/__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+admin-panel/node_modules/
+admin-panel-ayi/node_modules/
+
+# Env files — never commit secrets
+.env
+admin-panel/.env
+admin-panel-ayi/.env
+
+# Build
+dist/
+build/
